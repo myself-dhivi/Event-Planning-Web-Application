@@ -1,0 +1,61 @@
+/* CSS code for the vendor panel page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background: linear-gradient(to right, #FF4141, #F6425F);
+  color: #fff;
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.sidebar a #logout {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: #fff solid 1px;
+}
+
+
+.sidebar a:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section:hover{
+  display: block;
+}
+
+.content{
+  margin-left: 20%;
+}
